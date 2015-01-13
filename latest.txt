@@ -1,0 +1,2 @@
+0.4.7
+https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.4.7/blefriend/blefriend_s110_xxaa_0_4_7_141222_blefriend_release.hex
