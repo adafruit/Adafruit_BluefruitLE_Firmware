@@ -7,8 +7,14 @@
         <firmwarerelease version="0.3.1" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.3.1/blefriend/blefriend_s110_xxaa_0_3_1_141112_blefriend_release.hex" initfile="" minbootloader=“0x0000" />
       </firmware>
       <bootloader>
-        <bootloaderrelease version="0x0000" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0000.hex" />
-        <bootloaderrelease version="0x0005" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.hex" />
+        <bootloaderrelease version="0x0000" 
+hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0000.hex" 
+initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0000.init" 
+/>
+        <bootloaderrelease version="0x0005" 
+hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.hex" 
+initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.init" 
+/>
       </bootloader>
     </board>    
     <board name="BLESPISLAVE">
