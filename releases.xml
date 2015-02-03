@@ -8,7 +8,6 @@
       </firmware>
       <bootloader>
         <bootloaderrelease version="0x0000" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0000.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0000_init.dat" />
-        <bootloaderrelease version="0x0005" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005_init.dat" />
       </bootloader>
     </board>    
     <!-- BLE Friend (32KB SRAM) -->
