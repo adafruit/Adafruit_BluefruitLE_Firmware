@@ -1,5 +1,6 @@
 <bluefruitle>
   <boards>
+    <!-- BLE Friend (16KB SRAM) -->
     <board name="BLEFRIEND">
       <firmware>
         <firmwarerelease version="0.4.7" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.4.7/blefriend/blefriend_s110_xxaa_0_4_7_141222_blefriend_release.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.4.7/blefriend/blefriend_s110_xxaa_0_4_7_141222_blefriend_release_init.dat" minbootloader="0x0000" />
@@ -10,6 +11,13 @@
         <bootloaderrelease version="0x0005" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005_init.dat" />
       </bootloader>
     </board>    
+    <!-- BLE Friend (32KB SRAM) -->
+    <board name="BLEFRIEND32">
+      <bootloader>
+        <bootloaderrelease version="0x0005" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0005_init.dat" />
+      </bootloader>
+    </board>
+    <!-- BLE SPI Slave (32KB SRAM) -->
     <board name="BLESPISLAVE">
     </board>
   </boards>
