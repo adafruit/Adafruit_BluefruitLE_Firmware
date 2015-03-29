@@ -11,4 +11,4 @@ The firmware on your Bluefruit LE modules can be updated with the [on-board DFU 
 
 # Important Note
 
-For the [BLEFriend](https://www.adafruit.com/product/2267) currently in the store, you **must use the 0.5.0 or lower series firmware**.  The 0.6.0+ series firmware only works with new, unrelease parts with 32KB SRAM and won't boot on older 16KB SRAM parts.
+For the [BLEFriend](https://www.adafruit.com/product/2267) currently in the store, you **must use the 0.5.0 or lower series firmware**.  The 0.6.0+ series firmware only works with new, unreleased parts with 32KB SRAM and won't boot on older 16KB SRAM parts.
