@@ -23,7 +23,7 @@
     <!-- BLE SPI Slave (32KB SRAM, B2) -->
     <board name="BLESPISLAVE">
       <firmware>
-        <firmwarerelease version="0.6.5" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespislave/blespislave_s110_xxac_0_6_5_150619_blespislave.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespislave/blespislave_s110_xxac_0_6_5_150619_blespislave_init.dat" minbootloader="0.2" />
+        <firmwarerelease version="0.6.5" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespislave/blespislave_s110_xxac_0_6_5_150623_blespislave.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespislave/blespislave_s110_xxac_0_6_5_150623_blespislave_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.6.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.2/blespislave/blespislave_s110_xxac_0_6_2_150430_blespislave_release.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.2/blespislave/blespislave_s110_xxac_0_6_2_150430_blespislave_release_init.dat" minbootloader="0.2" />
       </firmware>
       <bootloader>
