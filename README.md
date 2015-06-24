@@ -14,10 +14,8 @@ The Adafruit Bluefruit LE Connect app for [Android](https://play.google.com/stor
 
 # Important Note
 
-For the [Bluefruit LE Friend](https://www.adafruit.com/product/2267), whiched is based on the first generation 16KB SRAM nRF51822, you **must use the 0.5.0 or lower series firmware**.
+For the [Bluefruit LE Friend](https://www.adafruit.com/product/2267), which is based on the first generation 16KB SRAM nRF51822 parts, you **must use the 0.5.0 or lower series firmware**.
 
 The 0.6.0+ series firmware only works with newer boards based on 32KB SRAM nrf51822 parts like the [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479). The 0.6.0+ firmware won't boot on older 16KB SRAM parts.
-
-The 16KB SRAM Bluefruit LE Friend board should normally be updated with the .hex file located here: https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/tree/master/0.5.0/blefriend
 
 If you are using the Bluefruit LE Connect apps from Adafruit to manage your firmware updates, it should take care of the version differences automatically.
