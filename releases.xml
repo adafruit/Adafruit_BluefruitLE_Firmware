@@ -31,5 +31,15 @@
         <bootloaderrelease version="0.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002_init.dat" />
       </bootloader>
     </board>
+    <!-- BLE SPI SLAVE (32KB SRAM, B2) -->
+    <board name="BLESPISLAVE">
+      <firmware>
+        <firmwarerelease version="0.6.5" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespifriend/blespifriend_s110_xxac_0_6_5_150701_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blespifriend/blespifriend_s110_xxac_0_6_5_150701_blespifriend_init.dat" minbootloader="0.2" />
+        <firmwarerelease version="0.6.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.2/blespifriend/blespifriend_s110_xxac_0_6_2_150430_blespifriend_release.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.2/blespifriend/blespifriend_s110_xxac_0_6_2_150430_blespifriend_release_init.dat" minbootloader="0.2" />
+      </firmware>
+      <bootloader>
+        <bootloaderrelease version="0.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002_init.dat" />
+      </bootloader>
+    </board>
   </boards>
 </bluefruitle>
