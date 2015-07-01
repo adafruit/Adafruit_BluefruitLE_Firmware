@@ -12,7 +12,7 @@ The firmware on your Bluefruit LE modules can be updated with the [on-board DFU 
 
 The Adafruit Bluefruit LE Connect app for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) or [iOS](https://itunes.apple.com/app/adafruit-bluefruit-le-connect/id830125974?mt=8) also enable over the air firmware updates using the files found in this repo.
 
-# Firmware/Board Compatability Chart
+# Firmware/Board Compatibility Chart
 
 Firmware  | BLEFRIEND  | BLEFRIEND32 | BLESPIFRIEND
 --------- | ---------- | ----------- | ------------
