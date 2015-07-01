@@ -5,8 +5,8 @@ This repository contains firmware images for the Bluefruit LE family of boards f
 
 Current members of this board family include:
 
-- [Bluefruit LE Friend](https://www.adafruit.com/product/2267)
-- [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479)
+- [Bluefruit LE Friend](https://www.adafruit.com/product/2267) (BLEFRIEND Firmware)
+- [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479) (BLEFRIEND32 Firmware)
 
 The firmware on your Bluefruit LE modules can be updated with the [on-board DFU bootloader](https://learn.adafruit.com/introducing-adafruit-ble-bluetooth-low-energy-friend/field-updates), using the latest firmare image from this repository for the update.
 
@@ -14,13 +14,13 @@ The Adafruit Bluefruit LE Connect app for [Android](https://play.google.com/stor
 
 # Firmware/Board Compatability Chart
 
-Firmware  | BLEFRIEND (16KB) | BLEFRIEND32 | BLESPIFRIEND
---------- | ---------------- | ----------- | ------------
-0.3.1     | Yes              | --          | --
-0.4.7     | Yes              | --          | --
-0.5.0     | Yes              | --          | --
-0.6.2     | --               | Yes         | --
-0.6.5     | --               | Yes         | Yes
+Firmware  | BLEFRIEND  | BLEFRIEND32 | BLESPIFRIEND
+--------- | ---------- | ----------- | ------------
+0.3.1     | Yes        | --          | --
+0.4.7     | Yes        | --          | --
+0.5.0     | Yes        | --          | --
+0.6.2     | --         | Yes         | --
+0.6.5     | --         | Yes         | Yes
 
 For the [Bluefruit LE Friend](https://www.adafruit.com/product/2267), which is based on the first generation 16KB SRAM nRF51822 parts, you **must use the 0.5.0 or lower series firmware**.
 
