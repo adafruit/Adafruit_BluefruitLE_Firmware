@@ -1,0 +1,108 @@
+Nordic Semiconductor ASA
+
+This license agreement (the "Agreement") is entered into by and between
+
+a) Nordic Semiconductor ASA, Otto Nielsens veg 12, NO-7004 Trondheim, Norway. Norwegian organization number 966 011 726, ("Nordic Semiconductor")
+
+and
+
+b) the legal entity that you represent and which have agreed with Nordic Semiconductor to receive this Licensed Technology (as defined below) and to use it in accordance with this Agreement (the "Licensee")
+
+each referred to as "Party" and collectively as "Parties".
+
+Licensee agrees to be bound by this Agreement by opening the package in which the Licensed Technology, as defined below, is packed or installing the Licensed Technology or in any other way taking the Licensed Technology into use either by the Licensee or by a licensee or a customer of the Licensee. 
+
+1.  DEFINITIONS
+
+"Licensed Technology" shall mean the Nordic Semiconductor Firmware and Software including without limitation, object code libraries, source code libraries and applications, and any accompanying written materials delivered or made available by Nordic Semiconductor to Licensee.
+
+"Source Code Components" shall mean any libraries or applications in source code form included in the Licensed Technology.
+
+"Licensed Technology Revisions" shall mean any modification of, revisions or improvements to, or derivative work of any Source Code Components, made, conceived or reduced by Licensee without limitation to bug-fixes.
+
+
+"Companion Devices" shall mean any device, provided by Nordic Semiconductor or third party, that integrates a microcontroller, contains the Licensed Technology embedded in an executable format, and that is used in conjunction with a Nordic Semiconductor Device to provide a radio frequency communication system.
+
+2.  SCOPE OF LICENSE
+
+2.1 Development License. Subject to the terms and conditions of this Agreement, Nordic Semiconductor hereby grants Licensee for the term of this agreement a limited, non-exclusive, non-transferable, non-sublicenseable, revocable, license to access, use internally and reproduce the Licensed Technology and create Licensed Technology Revisions solely for the purpose of development, testing, evaluation or manufacture of Licensee’s products that will (i) contain at least one Nordic Semiconductor Device and (ii) incorporate the Licensed Technology embedded in an executable format either on a Nordic Semiconductor Device or a Companion Device. It is explicitly agreed and understood by Licensee that any use of the Licensed Technology, Licensed Technology Revisions or any portion thereof, with radio frequency devices provided to the Licensee by any other entity than Nordic Semiconductor or its affiliates, is considered to be a material breach of this agreement.
+
+2.2 Limited Distribution License. Subject to the terms of this agreement, Nordic Semiconductor hereby grants Licensee for the term of this agreement a limited, non-exclusive, non-transferable, non-sublicensable, license to copy and distribute the Licensed Technology, Licensed Technology Revisions, and any portions thereof, as amended or developed by the License provided that in each instance (i) it contains at least one Nordic Semiconductor Device and (ii) it is distributed solely and exclusively in an executable format embedded in a Nordic Semiconductor Device or a Companion Device delivered to the Licensee by Nordic Semiconductor or its affiliates. It is explicitly agreed and understood by Licensee that any distribution of the Licensed Technology, Licensed Technology Revisions or any portion thereof, with radio frequency devices provided to the Licensee by any other entity than Nordic Semiconductor or its affiliates, is considered to be a material breach of this agreement.
+
+2.3 License for Limited Revisions. In connection with the licenses granted in Section 2.1 and 2.2, Licensee may use Source Code Components to create Licensed Technology Revisions. All Licensed Technology Revisions are subject to the terms and conditions of this Agreement, including but not limited to the license grants in Section 2.1 and 2.2.
+
+2.4 Feedback. Licensee may in its sole discretion provide feedback to Nordic Semiconductor regarding the License technology (herein after "Feedback"), including but not limited to bugs, Licensee’s Licensed Technology Revisions and suggestions for improvements. With respect to such Feedback, Licensee hereby grants Nordic Semiconductor a world wide, non-exclusive, perpetual, irrevocable, royalty free rights (i) to use, copy and modify Feedback and create  derivative works thereof, (ii) to make (or have made), use, import, sell, offer for sale, lease or otherwise distribute any products or services containing Feedback or implementing Feedback solely for the purpose of using the Feedback in Licensed Technology or in implementations of Licensed Technology, and (iii) to sublicense the aforementioned rights solely for the purpose of using  the Feedback in Licensed Technology or in implementations of Licensed Technology.
+
+2.5 Distribution Restrictions. Except as set forward in Sections 2.1 and 2.2 above, the Licensee may not disclose or distribute the Licensed Technology or Licensed Technology Revisions to any third party. Licensee agrees to provide reasonable security precautions to prevent unauthorized access to or use the Licensed Technology and Licensed Technology Revisions as proscribed herein. Licensee also agrees that use of and access to the Licensed Technology and Licensed Technology Revisions will be strictly limited to the employees and subcontractors of the Licensee necessary for the performance of development, verification and production tasks under this agreement. The Licensee is responsible for making sSuch employees and subcontractors agree on complying with the obligations concerning use and non-disclosure of the Licensed Technology and Licensed Technology Revisions.
+
+2.6 No Reverse Engineering. Except as set forth is Section 2.4 Licensee shall not reverse engineer, disassemble or decompile any non- Source Code Component parts of the Licensed Technology, or otherwise attempt to discover the source code of or modify the Licensed Technology.
+
+2.7 No Other Rights. Licensee shall use the Licensed Technology only in compliance with this Agreement and shall refrain from using the Licensed Technology in any way that may be contrary to this Agreement or detrimental to Nordic Semiconductor in any way, including, but not limited to its confidential information, intellectual property rights or goodwill.
+
+3.  FEES
+
+Nordic Semiconductor grants the License to the Licensee free of charge provided that the Licensee undertakes the obligations in the Agreement and warrants to comply with the Agreement. 
+
+4.  INTELLECTUAL PROPERTY RIGHTS
+
+The Licensee acknowledges that the Licensed Technology, the Licensed Technology Revisions any and all of the copyright, trademarks, trade names, patents and other intellectual property rights to material and documents created, developed or subsisting from Nordic Semiconductor or related to the Licensed Technology shall be the sole property of Nordic Semiconductor. 
+
+All modifications, amendments, development and other works derived from the intellectual property rights of Nordic Semiconductor, hereunder the Licensed Technology, as described in this Section 4 shall be automatically transferred to Nordic Semiconductor upon creation of the said.
+
+This Section 4 shall survive the termination of the Agreement. 
+
+
+
+
+5.  NO WARRANTY
+
+5.1 The Licensed Technology is provided “as is" without warranty of any kind express or implied and neither Nordic Semiconductor, its licensors or affiliates nor the copyright holders make any representations or warranties, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose or that the Licensed Technology will not infringe any third party patents, copyrights, trademarks or other rights. There is no warranty by Nordic Semiconductor or by any other party that the functions contained in the Licensed Technology will meet the requirements of Licensee or that the operation of the Licensed Technology will be uninterrupted or error-free. Licensee assumes all responsibility and risk for the selection of the Licensed Technology to achieve Licensee’s intended results and for the installation, use and results obtained from it. 
+
+5.2 The Feedback is provided “as is" without warranty of any kind express or implied and neither Licensee, its licensors or affiliates nor the copyright holders make any representations or warranties, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose or that the Feedback will not infringe any third party patents, copyrights, trademarks or other rights. There is no warranty by Licensee or by any other party that the functions contained in the Feedback, if any, will meet the requirements of Nordic Semiconductor or that the operation of the Licensed Technology will be uninterrupted or error-free. Nordic Semiconductor assumes all responsibility and risk for the selection of the Feedback to achieve Nordic Semiconductor’s intended results and for the installation, use and results obtained from it. 
+
+6.  LIMITATION OF LIABILITY
+
+6.1 In no event shall Nordic Semiconductor, its employees or suppliers or affiliates be liable for any lost profits, revenue, sales, data or costs of procurement of substitute goods or services, property damage, personal injury, interruption of business, loss of business information or for any special, direct, indirect, incidental, economic,  punitive, special or consequential damages, however caused and whether arising under contract, tort, negligence, or other theory of liability arising out of the use of or inability to use the Licensed Technology, even if Nordic Semiconductor or its employees or suppliers or affiliates are advised of the possibility of such damages. Because some countries/states/ jurisdictions do not allow the exclusion or limitation of liability, but may allow liability to be limited, in such cases, Nordic Semiconductor, its employees or licensors or affiliates’ liability shall be limited to USD 50. 
+
+6.2 In no event shall Licensee, its employees or suppliers or affiliates be liable for any lost profits, revenue, sales, data or costs of procurement of substitute goods or services, property damage, personal injury, interruption of business, loss of business information or for any special, direct, indirect, incidental, economic, punitive, special or consequential damages, however caused and whether arising under contract, tort, negligence, or other theory of liability arising out of the use of or inability to use the Feedback, even if Licensee or its employees or suppliers or affiliates are advised of the possibility of such damages. Because some countries/states/ jurisdictions do not allow the exclusion or limitation of liability, but may allow liability to be limited, in such cases, Licensee, its employees or licensors or affiliates' liability shall be limited to USD 50.
+ 
+
+
+7.  CONFIDENTIALITY
+
+7.1 Licensee agrees to keep the Confidential Information (as defined below) strictly confidential and shall not disclose the Confidential Information to any other party except to a court of law when required by court order, save that Licensee may disclose the Confidential Information only to its employees who:
+
+(i) Under the terms of their employment by Licensee are subject to an obligation not to disclose confidential information of Licensee, and
+
+(ii) Need to know the Confidential Information for the performance of their duties for Licensee.
+
+7.2 Licensee shall protect the Confidential Information with the same degree of care as it normally uses in the protection of its own confidential and proprietary information, but in no case with any less degree than reasonable care. Licensee shall, at Nordic Semiconductor's request, provide written assurances concerning the steps taken by Licensee to preserve the confidentiality of the Confidential Information. Licensee shall comply with all reasonable instructions from Nordic Semiconductor with regard to security and safety of the Confidential Information.
+
+7.3 "Confidential Information" shall mean any information delivered or communicated by Nordic Semiconductor to Licensee under this Agreement or any information contained in the Licensed Technology made available to Licensee by Nordic Semiconductor, or disclosed orally and identified as confidential or is known to be confidential or which Licensee should understand is confidential by the nature of the information. 
+
+This Section 7 shall survive the termination of the Agreement. 
+
+8.  BREACH OF CONTRACT
+
+Upon a breach of contract by the Licensee, Nordic Semiconductor is entitled to damages in respect of any direct loss which can be reasonably attributed to the breach by the Licensee. If the Licensee has acted with gross negligence or willful misconduct, the Licensee shall cover both direct and indirect costs for Nordic Semiconductor. 
+9.  INDEMNITY
+
+6.1	Licensee undertakes to indemnify, hold harmless and defend Nordic Semiconductor and its directors, officers, affiliates, shareholders, employees and agents from and against any claims or lawsuits, including attorney's fees, that arise or result from Licensee's execution of the License and which is not due to causes for which Nordic Semiconductor is responsible.
+
+
+9.  GOVERNING LAW
+
+This Agreement shall be construed according to the laws of Norway, and hereby submits to the exclusive jurisdiction of the Oslo tingrett.
+
+10. ASSIGNMENT
+
+Licensee shall not assign this Agreement or any rights or obligations hereunder without the prior written consent of Nordic Semiconductor. 
+ 
+
+11.  TERMINATION
+
+11.1 Without prejudice to any other rights, Nordic Semiconductor may cancel this Agreement if Licensee does not abide by the terms and conditions of this Agreement.
+
+11.2 Upon termination Licensee must promptly cease the use of the License and destroy all copies of the Licensed Technology and any other material provided by Nordic Semiconductor or its affiliate, or produced by the Licensee in connection with the Agreement or the Licensed Technology.
+
+
