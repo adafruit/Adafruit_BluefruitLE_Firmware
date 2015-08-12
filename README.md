@@ -8,6 +8,7 @@ Current members of this board family include:
 - [Bluefruit LE Friend](https://www.adafruit.com/product/2267) (**BLEFRIEND** Firmware)
 - [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479) (**BLEFRIEND32** Firmware)
 - [Bluefruit LE SPI Friend](https://www.adafruit.com/product/2633) (**BLESPIFRIEND** Firmware)
+- [Bluefruit LE Micro](https://www.adafruit.com/product/2661) (**BLESPIFRIEND** Firmware)
 
 The firmware on your Bluefruit LE modules can be updated with the [on-board DFU bootloader](https://learn.adafruit.com/introducing-adafruit-ble-bluetooth-low-energy-friend/field-updates), using the latest firmare image from this repository for the update.
 
