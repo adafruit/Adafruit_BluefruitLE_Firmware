@@ -5,7 +5,8 @@ This repository contains firmware images for the Bluefruit LE family of boards f
 
 Current members of this board family include:
 
-- [Bluefruit LE Friend](https://www.adafruit.com/product/2267) (**BLEFRIEND** Firmware)
+- [Bluefruit LE Friend V1](https://www.adafruit.com/product/2267) (**BLEFRIEND** Firmware) - Blue PCB
+- [Bluefruit LE Friend V2](https://www.adafruit.com/product/2267) (**BLEFRIEND32** Firmware) - Black PCB
 - [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479) (**BLEFRIEND32** Firmware)
 - [Bluefruit LE SPI Friend](https://www.adafruit.com/product/2633) (**BLESPIFRIEND** Firmware)
 - [Bluefruit LE Micro](https://www.adafruit.com/product/2661) (**BLESPIFRIEND** Firmware)
