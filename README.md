@@ -24,6 +24,8 @@ Firmware  | BLEFRIEND  | BLEFRIEND32 | BLESPIFRIEND
 0.5.0     | Yes        | --          | --
 0.6.2     | --         | Yes         | --
 0.6.5     | --         | Yes         | Yes
+0.6.6     | --         | Yes         | Yes
+0.6.7     | --         | Yes         | Yes
 
 For the V1 (blue PCB) [Bluefruit LE Friend](https://www.adafruit.com/product/2267), which is based on the first generation 16KB SRAM nRF51822 parts, you **must use the 0.5.0 or lower series firmware**.
 
