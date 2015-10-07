@@ -32,3 +32,11 @@ For the V1 (blue PCB) [Bluefruit LE Friend](https://www.adafruit.com/product/226
 The 0.6.0+ series firmware only works with newer boards based on 32KB SRAM nrf51822 parts like the [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479) or V2 of the Bluefruit LE Friend (black PCBs). The 0.6.0+ firmware won't boot on older 16KB SRAM parts.
 
 If you are using the Bluefruit LE Connect apps from Adafruit to manage your firmware updates, it should take care of the version differences automatically.
+
+# File Types
+
+Each firmware version and board target folder (for example `0.6.7/blespifriend`) contains three files:
+
+- `filename.hex` - The main firmware image, required for any firmware update.
+- `filename_signature.hex` - This file contains the CRC check for the filename.hex file above, and is required when manually flashing firmware with a tool like [Adalink](https://github.com/adafruit/Adafruit_Adalink).  If the _signature.hex file containing the CRC check isn't flashed along with the main firmware image, the bootloader on the nRF51 will reject the firmware image and you will boot into DFU mode.  You only need this file when manually flashing firmware updates onto you Bluefruit LE module via AdaLink or a similar SWD debugger tools.  The CRC will automatically be calculate and written when doing over-the-air (OTA) updates.
+- `filename_init.dat` - This file contains meta-data about the main firmware image in filename.hex, such as the required SoftDevice version and expected HW.  This file is required when performing over-the-air (OTA) updates, which is a two file process.
