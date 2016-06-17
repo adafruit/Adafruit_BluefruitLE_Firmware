@@ -5,11 +5,17 @@ This repository contains firmware images for the Bluefruit LE family of boards f
 
 Current members of this board family include:
 
-- [Bluefruit LE Friend V1](https://www.adafruit.com/product/2267) (**BLEFRIEND** Firmware) - Blue PCB
-- [Bluefruit LE Friend V2](https://www.adafruit.com/product/2267) (**BLEFRIEND32** Firmware) - Black PCB
-- [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479) (**BLEFRIEND32** Firmware)
-- [Bluefruit LE SPI Friend](https://www.adafruit.com/product/2633) (**BLESPIFRIEND** Firmware)
-- [Bluefruit LE Micro](https://www.adafruit.com/product/2661) (**BLESPIFRIEND** Firmware)
+- **BLEFRIEND** Firmware (16KB SRAM parts):
+  - [Bluefruit LE Friend V1](https://www.adafruit.com/product/2267) - Blue PCB
+- **BLEFRIEND32** Firmware (32KB SRAM parts):
+  - [Bluefruit LE Friend V2](https://www.adafruit.com/product/2267) - Black PCB
+  - [Bluefruit LE UART Friend](https://www.adafruit.com/product/2479)
+- **BLESPIFRIEND** Firmware:
+  - [Bluefruit LE SPI Friend](https://www.adafruit.com/product/2633)
+  - [Bluefruit LE Shield](https://www.adafruit.com/products/2746)
+  - [Bluefruit LE Micro](https://www.adafruit.com/product/2661)
+  - [Feather 32u4 Bluefruit LE](https://www.adafruit.com/product/2829)
+  - [Feather M0 Bluefruit LE](https://www.adafruit.com/products/2995)
 
 The firmware on your Bluefruit LE modules can be updated with the [on-board DFU bootloader](https://learn.adafruit.com/introducing-adafruit-ble-bluetooth-low-energy-friend/field-updates), using the latest firmare image from this repository for the update.
 
