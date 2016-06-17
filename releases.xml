@@ -36,5 +36,14 @@
         <bootloaderrelease version="0.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002_init.dat" />
       </bootloader>
     </board>
+    <!-- BLE SPI Friend nrf52 -->
+    <board name="BLESPIFRIEND52">
+      <firmware>
+        <firmwarebeta version="0.7.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.0/blespifriend52/blespifriend52_s132_0_7_0.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.0/blespifriend52/blespifriend52_s132_0_7_0_init.dat" minbootloader="0.8" />
+      </firmware>
+      <bootloader>
+        <bootloaderrelease version="0.8" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_nrf52_0008.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_nrf52_0008_init.dat" />
+      </bootloader>
+    </board>
   </boards>
 </bluefruitle>
