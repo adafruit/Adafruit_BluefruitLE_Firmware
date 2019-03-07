@@ -14,11 +14,11 @@
     <!-- BLE UART Friend (32KB SRAM, B2) -->
     <board name="BLEFRIEND32">
       <firmware>
-        <!-- <firmwarebeta version="0.7.1" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.1/blefriend32/blefriend32_s110_xxac_0_7_1_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.1/blefriend32/blefriend32_s110_xxac_0_7_1_blefriend32_init.dat" minbootloader="0.2" /> -->
+        <firmwarebeta version="0.8.1" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.8.1/blefriend32/blefriend32_s110_xxac_0_8_1_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.8.1/blefriend32/blefriend32_s110_xxac_0_8_1_blefriend32_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.8.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.8.0/blefriend32/blefriend32_s110_xxac_0_8_0_170925_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.8.0/blefriend32/blefriend32_s110_xxac_0_8_0_170925_blefriend32_init.dat" minbootloader="0.2" />
-	<firmwarerelease version="0.7.7" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blefriend32/blefriend32_s110_xxac_0_7_7_161213_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blefriend32/blefriend32_s110_xxac_0_7_7_161213_blefriend32_init.dat" minbootloader="0.2" />
-	<firmwarerelease version="0.7.6" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blefriend32/blefriend32_s110_xxac_0_7_6_161207_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blefriend32/blefriend32_s110_xxac_0_7_6_161207_blefriend32_init.dat" minbootloader="0.2" />
-<firmwarerelease version="0.7.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.0/blefriend32/blefriend32_s110_xxac_0_7_0_160628_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.0/blefriend32/blefriend32_s110_xxac_0_7_0_160628_blefriend32_init.dat" minbootloader="0.2" />
+	      <firmwarerelease version="0.7.7" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blefriend32/blefriend32_s110_xxac_0_7_7_161213_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blefriend32/blefriend32_s110_xxac_0_7_7_161213_blefriend32_init.dat" minbootloader="0.2" />
+	      <firmwarerelease version="0.7.6" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blefriend32/blefriend32_s110_xxac_0_7_6_161207_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blefriend32/blefriend32_s110_xxac_0_7_6_161207_blefriend32_init.dat" minbootloader="0.2" />
+        <firmwarerelease version="0.7.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.0/blefriend32/blefriend32_s110_xxac_0_7_0_160628_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.0/blefriend32/blefriend32_s110_xxac_0_7_0_160628_blefriend32_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.6.7" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.7/blefriend32/blefriend32_s110_xxac_0_6_7_150917_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.7/blefriend32/blefriend32_s110_xxac_0_6_7_150917_blefriend32_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.6.6" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.6/blefriend32/blefriend32_s110_xxac_0_6_6_150820_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.6/blefriend32/blefriend32_s110_xxac_0_6_6_150820_blefriend32_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.6.5" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blefriend32/blefriend32_s110_xxac_0_6_5_150623_blefriend32.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.6.5/blefriend32/blefriend32_s110_xxac_0_6_5_150623_blefriend32_init.dat" minbootloader="0.2" />
@@ -31,7 +31,7 @@
     <!-- BLE SPI Friend (32KB SRAM, B2) -->
     <board name="BLESPIFRIEND">
       <firmware>
-        <!-- <firmwarebeta version="0.7.1" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.1/blespifriend/blespifriend_s110_xxac_0_7_1_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.1/blespifriend/blespifriend_s110_xxac_0_7_1_blespifriend_init.dat" minbootloader="0.2" /> -->
+        <firmwarebeta version="0.8.1" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.8.1/blespifriend/blespifriend_s110_xxac_0_8_1_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.8.1/blespifriend/blespifriend_s110_xxac_0_8_1_blespifriend_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.8.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.8.0/blespifriend/blespifriend_s110_xxac_0_8_0_170925_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.8.0/blespifriend/blespifriend_s110_xxac_0_8_0_170925_blespifriend_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.7.7" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blespifriend/blespifriend_s110_xxac_0_7_7_161213_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.7/blespifriend/blespifriend_s110_xxac_0_7_7_161213_blespifriend_init.dat" minbootloader="0.2" />
         <firmwarerelease version="0.7.6" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blespifriend/blespifriend_s110_xxac_0_7_6_161207_blespifriend.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/0.7.6/blespifriend/blespifriend_s110_xxac_0_7_6_161207_blespifriend_init.dat" minbootloader="0.2" />
@@ -42,15 +42,6 @@
       </firmware>
       <bootloader>
         <bootloaderrelease version="0.2" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_0002_init.dat" />
-      </bootloader>
-    </board>
-    <!-- BLE SPI Friend nrf52 -->
-    <board name="BLESPIFRIEND52">
-      <firmware>
-        <firmwarebeta version="0.7.0" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.0/blespifriend52/blespifriend52_s132_0_7_0.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/beta/0.7.0/blespifriend52/blespifriend52_s132_0_7_0_init.dat" minbootloader="0.8" />
-      </firmware>
-      <bootloader>
-        <bootloaderrelease version="0.8" hexfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_nrf52_0008.hex" initfile="https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/raw/master/bootloader/bootloader_nrf52_0008_init.dat" />
       </bootloader>
     </board>
   </boards>
