@@ -2,12 +2,16 @@
 """Update releases.xml with a new firmware (or beta) entry.
 
 Usage:
-  python make-release.py <version> [--beta]
+  python make-release.py <version> [--beta|--promote-beta]
 
 The script scans the firmware files under either ``<version>/`` or
 ``beta/<version>/`` (when ``--beta`` is provided) and injects the
 corresponding <firmwarerelease> or <firmwarebeta> entries into
 ``releases.xml`` for each board it finds.
+
+When ``--promote-beta`` is provided, the script moves ``beta/<version>/``
+to ``<version>/``, removes the corresponding <firmwarebeta> entries, and
+adds <firmwarerelease> entries.
 
 Assumptions:
 - Board directory names map to XML board names as follows:
@@ -23,6 +27,8 @@ from __future__ import annotations
 import argparse
 import sys
 from pathlib import Path
+import shutil
+from typing import Optional
 import xml.etree.ElementTree as ET
 
 
@@ -40,10 +46,16 @@ BASE_URL = (
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Add a firmware entry")
     parser.add_argument("version", help="Version string, e.g. 0.9.0")
-    parser.add_argument(
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument(
         "--beta",
         action="store_true",
         help="Insert as <firmwarebeta> from beta/<version>/",
+    )
+    mode.add_argument(
+        "--promote-beta",
+        action="store_true",
+        help="Move beta/<version>/ to <version>/ and promote to <firmwarerelease>",
     )
     return parser.parse_args()
 
@@ -151,17 +163,43 @@ def insert_entry(board_elem: ET.Element, entry: ET.Element) -> None:
     firmware.insert(0, entry)
 
 
+def remove_beta_entries(board_elem: ET.Element, version: str) -> Optional[str]:
+    firmware = board_elem.find("firmware")
+    if firmware is None:
+        sys.exit(f"Board '{board_elem.get('name')}' lacks <firmware> section")
+
+    min_boot = None
+    for entry in list(firmware):
+        if entry.tag == "firmwarebeta" and entry.get("version") == version:
+            if min_boot is None and entry.get("minbootloader"):
+                min_boot = entry.get("minbootloader")
+            firmware.remove(entry)
+    return min_boot
+
+
 def main() -> None:
     args = parse_args()
 
-    base_dir = Path("beta") / args.version if args.beta else Path(args.version)
-    if not base_dir.is_dir():
-        sys.exit(f"Firmware directory '{base_dir}' not found")
+    if args.promote_beta:
+        source_dir = Path("beta") / args.version
+        target_dir = Path(args.version)
+        if not source_dir.is_dir():
+            sys.exit(f"Firmware directory '{source_dir}' not found")
+        if target_dir.exists():
+            sys.exit(
+                f"Target firmware directory '{target_dir}' already exists; "
+                "refusing to overwrite"
+            )
+        scan_dir = source_dir
+    else:
+        scan_dir = Path("beta") / args.version if args.beta else Path(args.version)
+        if not scan_dir.is_dir():
+            sys.exit(f"Firmware directory '{scan_dir}' not found")
 
     tree = load_tree(Path("releases.xml"))
     root = tree.getroot()
 
-    for board_dir in sorted([p for p in base_dir.iterdir() if p.is_dir()]):
+    for board_dir in sorted([p for p in scan_dir.iterdir() if p.is_dir()]):
         board_name = BOARD_NAME_MAP.get(board_dir.name)
         if board_name is None:
             print(f"Unknown board dir '{board_dir.name}', skipping", file=sys.stderr)
@@ -169,10 +207,23 @@ def main() -> None:
 
         board_elem = find_board_element(root, board_name)
         min_boot = get_min_bootloader(board_elem)
+        if args.promote_beta:
+            removed_min_boot = remove_beta_entries(board_elem, args.version)
+            if removed_min_boot:
+                min_boot = removed_min_boot
+            else:
+                print(
+                    f"Warning: no firmwarebeta {args.version} entry for "
+                    f"{board_elem.get('name')}",
+                    file=sys.stderr,
+                )
         tag = "firmwarebeta" if args.beta else "firmwarerelease"
 
         entry = build_entry(tag, args.version, board_dir, min_boot, args.beta)
         insert_entry(board_elem, entry)
+
+    if args.promote_beta:
+        shutil.move(str(source_dir), str(target_dir))
 
     # Pretty-print while keeping comments. ET.indent is available in Python 3.9+.
     try:  # type: ignore[attr-defined]
